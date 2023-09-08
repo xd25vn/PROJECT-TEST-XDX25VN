@@ -1,0 +1,68 @@
+header {
+    background-color: #fff;
+    display: flex;
+    box-shadow: rgba(57, 76, 96, 0.15) 0px 1px 3px 0px;
+    width: 100%;
+    height: 72px;
+    align-items: center;
+    padding: 0 32px;
+}
+
+header .nav-product {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header .logo-nav {
+    margin-right: 10px;
+}
+
+header .logo-nav img {
+    width: 146px;
+    height: auto;
+}
+
+header .form-control input {
+    height: 40px;
+    font-size: 14px;
+    padding: 8px 8px 8px 40px;
+    border-radius: 8px;
+    border: rgb(210, 214, 224);
+    outline: rgb(210, 214, 224);
+    background-color: rgb(237, 239, 242);
+    transition: background-color 0.2s ease-in-out 0s;
+    width: 100%;
+    position: relative;
+    width: 284px;
+}
+
+header .form-control .icon-search {
+    position: absolute;
+    z-index: 1;
+    top: 28;
+    left: 190;
+    color: rgb(122, 134, 159);
+}
+
+header .nav-product li {
+    padding: 6px 12px;
+}
+
+header .nav-product li a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+header .nav-login {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 420px;
+}
+
+header .nav-login a {
+    text-decoration: none;
+    padding: 0px 24px;
+    color: var(--color-black);
+}

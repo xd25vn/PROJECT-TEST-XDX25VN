@@ -1,0 +1,8 @@
+header {
+    background-color: #fff;
+    display: flex;
+}
+
+header #nav {
+    list-style: none;
+}
